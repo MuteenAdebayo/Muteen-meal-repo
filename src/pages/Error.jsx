@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 // import Error404 from '../assets/Error404.jpeg'
 import '../Styles/error.css'
-import Error404 from '../assets/spaceman_img.jpg'
+import Error404 from '../assets/Thespaceman.jpg'
 
  const Error = () => {
 

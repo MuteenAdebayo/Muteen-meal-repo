@@ -1,4 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Nosifer&family=Noto+Sans+NKo+Unjoined&family=Noto+Sans+Old+Italic&family=Poppins&display=swap');
 
+.Muteen-meal{
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+
+}
+.home, .about{
+  text-decoration: none;
+  width: 70px;
+  height: 35px;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
 

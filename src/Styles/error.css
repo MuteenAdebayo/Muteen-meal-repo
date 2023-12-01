@@ -1,0 +1,87 @@
+
+
+
+
+
+/* .Error{
+  display: flex;
+  justify-content: space-around;
+}
+.Error img{
+  max-width: 100%;
+  width: 400px;
+}
+.anchor_tag{
+  display: flex;
+  height: ;
+}
+ .Error.lost_in_space{
+  display: grid;
+} */
+
+.Error{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 10px;
+padding-left: 20px;
+padding-top: 30PX;
+
+}
+.Error img{
+  max-width: 100%;
+  width: 300px;
+  margin: 10px auto;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.lost h2{
+  font-size:large ;
+  color: rgb(0, 55, 255);
+  /* line-height: 1pxZ; */
+}
+.lost .space{
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+.lost .reached{
+  font-weight: light;
+ 
+}
+
+.Error button{
+  max-width: 100%;
+  width: 200px;
+  /* padding: 5px; */
+  /* margin: 35px auto; */
+  border: none;
+  border-radius: 15px 0px;
+  box-shadow: 0px 2px rgba(2, 2, 1, 0.5);
+  justify-self: center;
+  justify-items: center;
+  display: flex;
+}
+button a{
+  text-decoration: none;
+  color: rgb(227, 73, 227);
+  font-weight: bold;
+  text-align: center;
+  text-align: center;
+  padding-left: 5px ;
+} 
+button:hover{
+  border-radius: 2px;
+  box-shadow: 0px 0px;
+  outline-style: solid;
+  outline-color: purple;
+  transition: 2s ease-out ;
+}
+
+@media only screen and (max-width:560px){
+  .Error{
+    display: grid;
+  ;
+  }
+
+}  

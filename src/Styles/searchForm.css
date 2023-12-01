@@ -1,0 +1,8 @@
+.search_box{
+  width: 80%
+  
+}
+search_box input{
+  flex: 1;
+ 
+}

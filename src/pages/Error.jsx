@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-// import Error404 from '../assets/Error404.jpeg'
 import '../Styles/error.css'
-import Error404 from '../assets/Thespaceman.jpg'
+import Errorimage from '../assets/Thespaceman.jpg'
 
  const Error = () => {
 
@@ -19,7 +18,7 @@ import Error404 from '../assets/Thespaceman.jpg'
       
     </div>
     
-      <img src={Error404} alt="" />
+      <img src={Errorimage} alt="" />
    
    </div>
   )     

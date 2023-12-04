@@ -5,7 +5,6 @@ import Homepage from './pages/Homepage'
 import About from './pages/About'
 import Error from './pages/Error'
 import Footer from './Components/Footer'
-import { useGlobalContext } from './hooks/context'
 import SingleMeal from './pages/SingleMeal'
 
 
@@ -21,7 +20,7 @@ function App() {
            <Route path='/about' element={<About/>}/>
            <Route path='/meal/:id' element={<SingleMeal/>}/>
            <Route path='*' element={<Error/>}/>
-         </Routes>
+          </Routes>
           <Footer/>
        </Router>
      </div>

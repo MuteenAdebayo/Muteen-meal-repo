@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../Styles/error.css'
 import Errorimage from '../assets/Thespaceman.jpg'
 
  const Error = () => {
-
- 
   return (
     
    <div className='Error'>
@@ -18,7 +16,7 @@ import Errorimage from '../assets/Thespaceman.jpg'
       
     </div>
     
-      <img src={Errorimage} alt="" />
+      <img src={Errorimage}/>
    
    </div>
   )     
